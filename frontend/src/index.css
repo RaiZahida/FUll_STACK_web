@@ -1,0 +1,80 @@
+body{
+  background-image: url(../b2.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#form{
+  float: right;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 50%;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1b1b1b;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+input{
+  width: 100%;
+  padding: 5px;
+  /* margin-top: 5px; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* font-size: 16px; */
+  background-color: #f9f9f9;
+}
+button:hover{
+  background-color: #333;
+}
+input:focus{
+  border-color: #007bff;
+  outline: none;
+}
+#heading{
+  text-align: center;
+  /* font-size: 24px; */
+  margin-bottom: 20px;
+  color: #1b1b1b;
+}
+/* Style for the password container to align the input and icon */
+.password-container {
+  position: relative;
+ 
+  /* width: fit-content; */
+}
+
+/* Style for the input field */
+
+/* Eye icon styling */
+.password-toggle-icon {
+  position: absolute;
+  /* right: 10px;
+  top: 50%; */
+  transform: translate(610px , -25px);
+  cursor: pointer;
+  color: #555;
+  font-size: 20px;
+  background-color: transparent;
+  /* border: 1px solid blue; */
+  border-radius: 10%;
+  padding: 1px;
+}
+
+.password-toggle-icon:hover {
+  color: #000;
+}
+/* database master naem admin password raizahida947 */
