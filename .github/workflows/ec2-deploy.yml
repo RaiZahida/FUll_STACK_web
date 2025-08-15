@@ -1,0 +1,13 @@
+name: EC2 Deployment
+
+on:
+  push:
+    branches:
+      - test-branch  # Only trigger when pushing to this branch
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print message
+        run: echo "EC2 workflow is working!"
