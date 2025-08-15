@@ -78,7 +78,7 @@ function Form() {
   return (
     <>
       <form id='form' onSubmit={handleSubmit}>
-        <div id='heading'><h1>Registration Form</h1></div>
+        <div id='heading'><h1>Registration Form School</h1></div>
         
         {errorMsg && <p style={{ color: 'red' }}>{errorMsg}</p>} {/* Display error message */}
 
