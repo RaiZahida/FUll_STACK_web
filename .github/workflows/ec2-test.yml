@@ -54,6 +54,8 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           source: "frontend/build/**"
           target: "/var/www/html/"
+          strip_components: 2
+
 
       # 7️⃣ Set permissions and restart Apache
       - name: Set permissions and restart Apache
