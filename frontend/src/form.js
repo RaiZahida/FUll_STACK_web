@@ -75,6 +75,8 @@ function Form() {
     setShowConfirmPassword(prev => !prev);
   };
 
+  console.log('hello world fatima')
+
   return (
     <>
       <form id='form' onSubmit={handleSubmit}>
